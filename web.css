@@ -1,0 +1,38 @@
+h1{
+  background: linear-gradient(90deg,rgba(169, 78, 78, 1) 12%, rgba(236, 210, 149, 1) 100%);  
+}
+
+body{
+    background-color: rgb(236, 210, 149);
+}
+
+.formText{         /* Class */
+    font-size: 20px;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+}
+
+label{
+    font-size: 20px;
+    color: rgb(112, 92, 92);
+    padding: 8px;
+}
+
+div#preference{      /* Id */
+    font-size: 18px;
+    color: red;
+    border-top: dotted 1px;
+    border-bottom: dotted 1px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+p::first-letter{     /* Pseudo-elemento */
+    color: rgb(0, 255, 38);
+    font-size: 27px;
+    font-weight: 1000;
+}
+
+div:hover{           /* Pseudo-clase */
+    background: radial-gradient(circle,rgba(219, 165, 99, 1) 28%, rgba(222, 180, 82, 1) 83%);
+}
